@@ -179,6 +179,14 @@ def ResetRoster():
     dictsupergroup['healer'].clear()
     dictsupergroup['dps'].clear()
 
+    dictOneRolePlayers['tank'].clear()
+    dictOneRolePlayers['healer'].clear()
+    dictOneRolePlayers['dps'].clear()
+
+    rolesdict['tank'].clear()
+    rolesdict['healer'].clear()
+    rolesdict['dps'].clear()
+
     rolesdict['tank'] = tanksMaster.copy()
     rolesdict['healer'] = healersMaster.copy()
     rolesdict['dps'] = dpsMaster.copy()
